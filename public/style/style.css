@@ -1,0 +1,2214 @@
+body {
+    width: 1200px;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50%;
+    margin-top: 60px;
+    position: relative;
+    top: -414px;
+    left: -21px;
+  }
+
+  /* 
+  .radio-wrapper {
+    position: fixed;
+  } */
+
+  .radio-wrapper input[type="radio"] {
+    cursor: pointer;
+  }
+
+
+
+  .radio-wrapper {
+    position: relative;
+
+    .radio1 {
+      width: 6px;
+      height: 6px;
+      top: -1px;
+      left: 7px;
+    }
+
+    .radio2 {
+      width: 8px;
+      height: 8px;
+      top: 32px;
+      left: 5px;
+    }
+
+    .radio3 {
+      width: 10px;
+      height: 10px;
+      top: 63px;
+      left: 5px;
+    }
+
+    .radio4 {
+      width: 12px;
+      height: 12px;
+      top: 94px;
+      left: 4px;
+    }
+
+    .radio5 {
+      width: 14px;
+      height: 14px;
+      top: 127px;
+      left: 3px;
+    }
+
+    .radio6 {
+      width: 16px;
+      height: 16px;
+      top: 158px;
+      left: 2px;
+    }
+
+    .radio7 {
+      width: 18px;
+      height: 18px;
+      top: 191px;
+      left: 1px;
+    }
+
+    .radio8 {
+      width: 20px;
+      height: 20px;
+      top: 221px;
+      left: 0;
+    }
+  }
+
+  .radio-wrapper input[type="radio"],
+.radio-gography input[type="radio"],
+.radio-siviks input[type="radio"],
+.radio-culture input[type="radio"],
+.radio-tehnology input[type="radio"],
+.radio-physical_science input[type="radio"],
+.radio-earth_science input[type="radio"],
+.radio-investigation input[type="radio"],
+.radio-writing input[type="radio"],
+.radio-reading input[type="radio"],
+.radio-concept input[type="radio"],
+.radio-alphabetic input[type="radio"],
+.radio-comunication input[type="radio"],
+.radio-photological input[type="radio"],
+.radio-listening input[type="radio"],
+.radio-logic input[type="radio"],
+.radio-compare input[type="radio"],
+.radio-pattern input[type="radio"],
+.radio-measurement input[type="radio"],
+.radio-shapes input[type="radio"],
+.radio-spatal input[type="radio"],
+.radio-NumberSense input[type="radio"],
+.radio-SelfRecurational input[type="radio"],
+.radio-SelfAwarlaness input[type="radio"],
+.radio-Atantion input[type="radio"],
+.radio-SocialR input[type="radio"],
+.radio-Grit input[type="radio"],
+.radio-Agency input[type="radio"],
+.radio-Perspect input[type="radio"],
+.radio-Kidness input[type="radio"],
+.radio-Responsibilty input[type="radio"],
+.radio-FineMotor input[type="radio"],
+.radio-Safety input[type="radio"],
+.radio-PersonalCare input[type="radio"],
+.radio-Nutrition input[type="radio"],
+.radio-Drama input[type="radio"],
+.radio-VisualArts input[type="radio"],
+.radio-Music input[type="radio"],
+.radio-Crafts input[type="radio"],
+.radio-Dance input[type="radio"],
+.radio-Gross input[type="radio"]
+{
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    /* Скрываем все радио-кнопки по умолчанию */
+}
+
+.radio-gography {
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    /* column-gap: 96px; */
+    flex-direction: column;
+    gap: 17px;
+
+
+    .radio1 {
+
+      
+        top: 2px;
+        left: -42px;
+    }
+
+    .radio2 {
+
+      
+        top: 33px;
+        left: -38px;
+    }
+
+    .radio3 {
+
+       
+        top: 65px;
+        left: -34px;
+    }
+
+    .radio4 {
+
+      
+        top: 96px;
+        left: -30px;
+    }
+
+    .radio5 {
+
+       
+        top: 128px;
+        left: -26px;
+    }
+
+    .radio6 {
+
+      
+        top: 160px;
+        left: -22px;
+    }
+
+    .radio7 {
+
+       
+        top: 192px;
+        left: -17px;
+    }
+
+    .radio8 {
+      
+        top: 223px;
+        left: -13px;
+    }
+
+}
+
+.radio-siviks {
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    /* column-gap: 96px; */
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+
+      
+        top: 1px;
+        left: -38px;
+    }
+
+    .radio2 {
+        top: 31px;
+        left: -29px;
+    }
+
+    .radio3 {
+        top: 62px;
+        left: -20px;
+    }
+
+    .radio4 {
+        top: 92px;
+        left: -11px;
+    }
+
+    .radio5 {
+        top: 123px;
+        left: -2px;
+    }
+
+    .radio6 {
+        top: 154px;
+        left: 7px;
+
+    }
+
+    .radio7 {
+        top: 184px;
+        left: 16px;
+    }
+
+    .radio8 {
+        top: 214px;
+        left: 25px;
+    }
+
+}
+
+.radio-culture {
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    /* column-gap: 96px; */
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -1px;
+        left: -33px;
+    }
+
+    .radio2 {
+        top: 28px;
+        left: -21px;
+    }
+
+    .radio3 {
+        top: 57px;
+        left: -7px;
+    }
+
+    .radio4 {
+        top: 85px;
+        left: 6px;
+    }
+
+    .radio5 {
+        top: 114px;
+        left: 20px;
+    }
+
+    .radio6 {
+        top: 142px;
+        left: 33px;
+
+    }
+
+    .radio7 {
+        top: 171px;
+        left: 48px;
+    }
+
+    .radio8 {
+        top: 214px;
+        left: 25px;
+    }
+
+}
+
+.radio-tehnology {
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    /* column-gap: 96px; */
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+  
+        top: -2px;
+        left: -31px;
+    }
+
+    .radio2 {
+        top: 24px;
+        left: -14px;
+    }
+
+    .radio3 {
+        top: 50px;
+        left: 5px;
+    }
+
+    .radio4 {
+        top: 75px;
+        left: 22px;
+    }
+
+    .radio5 {      
+        top: 102px;
+        left: 41px;
+    }
+
+    .radio6 {
+        top: 127px;
+        left: 59px;
+
+    }
+
+    .radio7 {
+        top: 154px;
+        left: 77px;
+    
+    }
+
+    .radio8 {
+        top: 179px;
+        left: 95px;
+    }
+
+}
+
+
+.radio-physical_science {
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -6px;
+        left: -27px;
+    }
+
+    .radio2 {
+        top: 18px;
+        left: -7px;
+    }
+
+    .radio3 {
+        top: 41px;
+        left: 16px;
+    }
+
+    .radio4 {
+        top: 64px;
+        left: 38px;
+    }
+
+    .radio5 {      
+        top: 87px;
+        left: 60px;
+    }
+
+    .radio6 {
+        top: 109px;
+        left: 81px;
+
+    }
+
+    .radio7 {
+        top: 132px;
+        left: 103px;
+    
+    }
+
+    .radio8 {
+        top: 154px;
+        left: 124px;
+    
+    }
+}
+
+
+.radio-earth_science {
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -10px;
+        left: -24px;
+    }
+
+    .radio2 {
+        top: 12px;
+        left: -1px;
+    }
+
+    .radio3 {
+        top: 31px;
+        left: 25px;
+    }
+
+    .radio4 {
+        top: 50px;
+        left: 50px;
+    }
+
+    .radio5 {      
+        top: 69px;
+        left: 76px;
+    
+    }
+
+    .radio6 {
+        top: 87px;
+        left: 101px;
+    }
+
+    .radio7 {
+        top: 106px;
+        left: 127px;
+    }
+
+    .radio8 {
+        top: 125px;
+        left: 152px;
+    
+    }
+}
+
+.radio-investigation{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -15px;
+        left: -22px;
+    }
+
+    .radio2 {
+        top: 4px;
+        left: 5px;
+    }
+
+    .radio3 {
+        top: 19px;
+        left: 33px;
+    }
+
+    .radio4 {
+        top: 34px;
+        left: 61px;
+    }
+
+    .radio5 {
+        top: 49px;
+        left: 89px;
+    }
+
+    .radio6 {
+        top: 63px;
+        left: 116px;
+    }
+
+    .radio7 {
+        top: 78px;
+        left: 145px;
+    }
+
+    .radio8 {
+        top: 92px;
+        left: 173px;
+    
+    }
+}
+
+.radio-writing{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -14px;
+        left: -22px;
+    }
+
+    .radio2 {
+        top: -4px;
+        left: 8px;
+    }
+
+    .radio3 {
+        top: 6px;
+        left: 38px;
+    }
+
+    .radio4 {
+        top: 15px;
+        left: 69px;
+    }
+
+    .radio5 {
+        top: 27px;
+        left: 99px;
+    }
+
+    .radio6 {
+        top: 37px;
+        left: 129px;
+    }
+
+    .radio7 {
+        top: 47px;
+        left: 159px;
+    }
+
+    .radio8 {
+        top: 57px;
+        left: 189px;
+    
+    }
+}
+
+
+.radio-reading{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -18px;
+        left: -21px;
+    }
+
+    .radio2 {
+        top: -13px;
+        left: 10px;
+    }
+
+    .radio3 {
+        top: -7px;
+        left: 42px;
+    }
+
+    .radio4 {
+        top: -3px;
+        left: 73px;
+    }
+
+    .radio5 {
+        top: 3px;
+        left: 104px;
+    }
+
+    .radio6 {
+        top: 8px;
+        left: 136px;
+    }
+
+    .radio7 {
+        top: 14px;
+        left: 168px;
+    }
+
+    .radio8 {
+        top: 19px;
+        left: 200px;
+    
+    }
+}
+
+.radio-concept{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -22px;
+        left: -21px;
+    }
+
+    .radio2 {
+        top: -22px;
+        left: 11px;
+    }
+
+    .radio3 {
+        top: -21px;
+        left: 43px;
+    
+    }
+
+    .radio4 {
+        top: -21px;
+        left: 75px;
+    }
+
+    .radio5 {
+        top: -21px;
+        left: 107px;
+    }
+
+    .radio6 {
+        top: -21px;
+        left: 139px;
+    }
+
+    .radio7 {
+        top: -20px;
+        left: 172px;
+    }
+
+    .radio8 {
+        top: -19px;
+        left: 203px;
+    
+    }
+}
+
+.radio-alphabetic{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -24px;
+        left: -21px;
+    }
+
+    .radio2 {
+        top: -31px;
+        left: 11px;
+    }
+
+    .radio3 {
+        top: -35px;
+        left: 43px;
+    
+    }
+
+    .radio4 {
+        top: -40px;
+        left: 74px;
+    }
+
+    .radio5 {
+        top: -44px;
+        left: 107px;
+    }
+
+    .radio6 {
+        top: -50px;
+        left: 139px;
+    }
+
+    .radio7 {
+        top: -54px;
+        left: 171px;
+    }
+
+    .radio8 {
+        top: -60px;
+        left: 202px;
+    }
+}
+
+.radio-comunication{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -28px;
+        left: -21px;
+    }
+
+    .radio2 {
+        top: -39px;
+        left: 9px;
+    }
+
+    .radio3 {
+        top: -49px;
+        left: 40px;
+    
+    }
+
+    .radio4 {
+        top: -59px;
+        left: 71px;
+    }
+
+    .radio5 {
+        top: -68px;
+        left: 102px;
+    }
+
+    .radio6 {
+        top: -79px;
+        left: 133px;
+    }
+
+    .radio7 {
+        top: -88px;
+        left: 164px;
+    }
+
+    .radio8 {
+        top: -98px;
+        left: 194px;
+    }
+}
+
+.radio-photological{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -32px;
+        left: -22px;
+    }
+
+    .radio2 {
+        top: -48px;
+        left: 5px;
+    }
+
+    .radio3 {
+        top: -62px;
+        left: 36px;
+    }
+
+    .radio4 {
+        top: -76px;
+        left: 64px;
+    }
+
+    .radio5 {
+        top: -91px;
+        left: 94px;
+    }
+
+    .radio6 {
+        top: -106px;
+        left: 123px;
+    }
+
+    .radio7 {
+        top: -121px;
+        left: 152px;
+    }
+
+    .radio8 {
+        top: -135px;
+        left: 181px;
+    }
+}
+
+.radio-listening{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -36px;
+        left: -24px;
+    }
+
+    .radio2 {
+        top: -55px;
+        left: 1px;
+    }
+
+    .radio3 {
+        top: -74px;
+        left: 29px;
+    }
+
+    .radio4 {
+        top: -94px;
+        left: 55px;
+    }
+
+    .radio5 {
+        top: -112px;
+        left: 83px;
+    }
+
+    .radio6 {
+        top: -131px;
+        left: 109px;
+    }
+
+    .radio7 {
+        top: -150px;
+        left: 136px;
+    }
+
+    .radio8 {
+        top: -169px;
+        left: 163px;
+    
+    }
+}
+
+
+.radio-logic{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -39px;
+        left: -26px;
+    }
+
+    .radio2 {
+        top: -62px;
+        left: -3px;
+    }
+
+    .radio3 {
+        top: -85px;
+        left: 21px;
+    }
+
+    .radio4 {
+        top: -108px;
+        left: 44px;
+    }
+
+    .radio5 {
+        top: -131px;
+        left: 68px;
+    }
+
+    .radio6 {
+        top: -155px;
+        left: 92px;
+    }
+
+    .radio7 {
+        top: -177px;
+        left: 115px;
+    }
+
+    .radio8 {
+        top: -200px;
+        left: 139px;
+    
+    }
+}
+
+
+
+.radio-compare{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -42px;
+        left: -30px;
+    }
+
+    .radio2 {
+        top: -68px;
+        left: -11px;
+    }
+
+    .radio3 {
+      
+        top: -95px;
+        left: 10px;
+        
+    }
+
+    .radio4 {
+        top: -121px;
+        left: 29px;
+    }
+
+    .radio5 {
+        top: -148px;
+        left: 50px;
+    }
+
+    .radio6 {
+        top: -175px;
+        left: 69px;
+    }
+
+    .radio7 {
+        top: -201px;
+        left: 90px;
+    }
+
+    .radio8 {
+        top: -227px;
+        left: 111px;
+    
+    }
+}
+/* здесь */
+.radio-pattern{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -44px;
+        left: -33px;
+    }
+
+    .radio2 {
+        top: -74px;
+        left: -17px;
+    }
+
+    .radio3 {
+      
+        top: -103px;
+        left: -1px;
+        
+    }
+
+    .radio4 {
+        top: -132px;
+        left: 14px;
+    }
+
+    .radio5 {
+        top: -161px;
+        left: 30px;
+    }
+
+    .radio6 {
+        top: -191px;
+        left: 45px;
+    }
+
+    .radio7 {
+        top: -220px;
+        left: 62px;
+    }
+
+    .radio8 {
+        top: -251px;
+        left: 77px;
+    
+    }
+}
+
+.radio-measurement{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -46px;
+        left: -36px;
+    }
+
+    .radio2 {
+        top: -78px;
+        left: -26px;
+    }
+
+    .radio3 {
+      
+        top: -109px;
+        left: -14px;
+        
+    }
+
+    .radio4 {
+        top: -141px;
+        left: -3px;
+    }
+
+    .radio5 {
+        top: -172px;
+        left: 7px;
+    }
+
+    .radio6 {
+        top: -204px;
+        left: 20px;
+    }
+
+    .radio7 {
+        top: -236px;
+        left: 32px;
+    }
+
+    .radio8 {
+        top: -267px;
+        left: 43px;
+    
+    }
+}
+
+.radio-shapes{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+   
+        top: -46px;
+        left: -40px;
+    }
+
+    .radio2 {
+    
+            top: -81px;
+            left: -34px;
+        
+    }
+
+    .radio3 {
+      
+        top: -113px;
+        left: -28px;
+        
+    }
+
+    .radio4 {
+        top: -146px;
+        left: -22px;
+    }
+
+    .radio5 {
+        top: -179px;
+        left: -15px;
+    }
+
+    .radio6 {
+        top: -212px;
+        left: -8px;
+    }
+
+    .radio7 {
+        top: -246px;
+        left: -1px;
+    }
+
+    .radio8 {
+        top: -278px;
+        left: 5px;
+    
+    }
+}
+
+
+.radio-spatal{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -47px;
+        left: -44px;
+    }
+
+    .radio2 {
+        top: -82px;
+        left: -42px;
+    }
+
+    .radio3 {
+      
+        top: -115px;
+        left: -42px;
+    
+    }
+
+    .radio4 {
+        top: -149px;
+        left: -40px;
+    }
+
+    .radio5 {
+        top: -183px;
+        left: -38px;
+    }
+
+    .radio6 {
+        top: -217px;
+        left: -37px;
+    }
+
+    .radio7 {
+        top: -251px;
+        left: -35px;
+    }
+
+    .radio8 {
+        top: -284px;
+        left: -33px;
+    }
+}
+
+
+.radio-NumberSense{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -48px;
+        left: -47px;
+    }
+
+    .radio2 {
+        top: -83px;
+        left: -51px;
+    }
+
+    .radio3 {
+        top: -116px;
+        left: -55px;
+    }
+
+    .radio4 {
+        top: -149px;
+        left: -59px;
+    }
+
+    .radio5 {
+        top: -183px;
+        left: -62px;
+    }
+
+    .radio6 {
+        top: -217px;
+        left: -66px;;
+    }
+
+    .radio7 {
+        top: -251px;
+        left: -69px;
+    }
+
+    .radio8 {
+        top: -284px;
+        left: -72px;
+   
+    }
+}
+
+
+.radio-SelfRecurational{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -47px;
+        left: -51px;
+    }
+
+    .radio2 {
+        top: -80px;
+        left: -61px;
+    }
+
+    .radio3 {
+        top: -114px;
+        left: -69px;
+    }
+
+    .radio4 {
+        top: -147px;
+        left: -79px;
+    }
+
+    .radio5 {
+        top: -180px;
+        left: -86px;
+    }
+
+    .radio6 {
+        top: -214px;
+        left: -95px;
+    }
+
+    .radio7 {
+        top: -246px;
+        left: -103px;
+    }
+
+    .radio8 {
+        top: -279px;
+        left: -112px;
+    }
+}
+
+.radio-SelfAwarlaness {
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -43px;
+        left: -62px;
+    }
+
+    .radio2 {
+        top: -69px;
+        left: -84px;
+    }
+
+    .radio3 {
+        top: -95px;
+        left: -107px;
+    }
+
+    .radio4 {
+        top: -122px;
+        left: -128px;
+    }
+
+    .radio5 {
+        top: -148px;
+        left: -151px;
+    
+    }
+
+    .radio6 {
+        top: -175px;
+        left: -172px;
+    }
+
+    .radio7 {
+        top: -201px;
+        left: -195px;
+    }
+
+    .radio8 {
+        top: -227px;
+        left: -217px;
+    
+    }
+}
+.radio-Atantion{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -45px;
+        left: -55px;
+    }
+
+    .radio2 {
+        top: -78px;
+        left: -69px;
+    
+    }
+
+    .radio3 {
+        top: -109px;
+        left: -83px;
+    
+    }
+
+    .radio4 {
+        top: -141px;
+        left: -96px;
+    }
+
+    .radio5 {
+        top: -173px;
+        left: -109px;
+    }
+
+    .radio6 {
+        top: -204px;
+        left: -122px;
+    }
+
+    .radio7 {
+        top: -236px;
+        left: -136px;
+    }
+
+    .radio8 {
+        top: -267px;
+        left: -149px;
+    }
+}
+
+
+.radio-SocialR{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -44px;
+        left: -59px;
+    }
+
+    .radio2 {
+        top: -74px;
+        left: -77px;
+    
+    }
+
+    .radio3 {
+        top: -103px;
+        left: -95px;
+    }
+
+    .radio4 {
+        top: -134px;
+        left: -113px;
+    }
+
+    .radio5 {
+        top: -162px;
+        left: -130px;
+    }
+
+    .radio6 {
+        top: -191px;
+        left: -148px;
+    }
+
+    .radio7 {
+        top: -220px;
+        left: -166px;
+    }
+
+    .radio8 {
+        top: -251px;
+        left: -184px;
+    
+    }
+}
+
+
+.radio-Grit{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -41px;
+        left: -65px;
+    }
+
+    .radio2 {
+        top: -63px;
+        left: -91px;
+    
+    }
+
+    .radio3 {
+        top: -86px;
+        left: -116px;
+    }
+
+    .radio4 {
+        top: -109px;
+        left: -143px;
+    }
+
+    .radio5 {
+        top: -131px;
+        left: -168px;
+    
+    
+    }
+
+    .radio6 {
+        top: -155px;
+        left: -194px;
+    }
+
+    .radio7 {
+        top: -177px;
+        left: -219px;
+    }
+
+    .radio8 {
+        top: -200px;
+        left: -245px;
+    
+    }
+
+}
+/* 10 */
+.radio-Agency{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -36px;
+        left: -69px;
+    }
+
+    .radio2 {
+        top: -55px;
+        left: -97px;
+    }
+
+    .radio3 {
+        top: -74px;
+        left: -125px;
+    }
+
+    .radio4 {
+        top: -94px;
+        left: -154px;
+    }
+
+    .radio5 {
+        top: -112px;
+        left: -182px;
+    }
+
+    .radio6 {
+        top: -112px;
+        left: -182px;
+    }
+
+    .radio7 {
+        top: -150px;
+        left: -240px;
+    }
+
+    .radio8 {
+        top: -170px;
+        left: -269px;
+    
+    }
+
+}
+.radio-Perspect{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -34px;
+        left: -69px;
+    }
+
+    .radio2 {
+        top: -48px;
+        left: -100px;
+    }
+
+    .radio3 {
+        top: -62px;
+        left: -132px;
+    }
+
+    .radio4 {
+        top: -76px;
+        left: -163px;
+    }
+
+    .radio5 {
+        top: -91px;
+        left: -194px;
+    }
+
+    .radio6 {
+        top: -106px;
+        left: -224px;
+    }
+
+    .radio7 {
+        top: -120px;
+        left: -256px;
+    }
+
+    .radio8 {
+        top: -135px;
+        left: -286px;
+    
+    }
+
+}
+.radio-Kidness{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -31px;
+        left: -70px;
+    }
+
+    .radio2 {
+        top: -40px;
+        left: -103px;
+    }
+
+    .radio3 {
+        top: -49px;
+        left: -136px;
+    }
+
+    .radio4 {
+        top: -59px;
+        left: -169px;
+    
+    }
+
+    .radio5 {
+        top: -68px;
+        left: -202px;
+    }
+
+    .radio6 {
+        top: -79px;
+        left: -235px;
+    }
+
+    .radio7 {
+        top: -88px;
+        left: -267px;
+    
+    }
+
+    .radio8 {
+        top: -98px;
+        left: -300px;
+    }
+
+}
+.radio-Responsibilty{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -26px;
+        left: -71px;
+    
+    }
+
+    .radio2 {
+        top: -31px;
+        left: -105px;
+    }
+
+    .radio3 {
+        top: -35px;
+        left: -139px;
+    }
+
+    .radio4 {
+        top: -40px;
+        left: -173px;
+    }
+
+    .radio5 {
+        top: -45px;
+        left: -207px;
+    }
+
+    .radio6 {
+        top: -50px;
+        left: -240px;
+    }
+
+    .radio7 {
+        top: -54px;
+        left: -274px;
+    }
+
+    .radio8 {
+        top: -59px;
+        left: -308px;
+    
+    }
+
+}
+
+.radio-Gross{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -22px;
+        left: -71px;
+    }
+
+    .radio2 {
+        top: -22px;
+        left: -105px;
+    
+    }
+
+    .radio3 {
+        top: -21px;
+        left: -139px;
+    }
+
+    .radio4 {
+        top: -21px;
+        left: -173px;
+    }
+
+    .radio5 {
+        top: -21px;
+        left: -207px;
+    }
+
+    .radio6 {
+        top: -21px;
+        left: -242px;
+    }
+
+    .radio7 {
+        top: -20px;
+        left: -276px;
+    }
+
+    .radio8 {
+        top: -20px;
+        left: -309px;
+    
+    }
+
+}
+
+
+.radio-FineMotor{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -19px;
+        left: -71px;
+    }
+
+    .radio2 {
+        top: -12px;
+        left: -105px;
+    }
+
+    .radio3 {
+        top: -7px;
+        left: -138px;
+    }
+
+    .radio4 {
+        top: -2px;
+        left: -172px;
+    }
+
+    .radio5 {
+        top: 3px;
+        left: -205px;
+    }
+
+    .radio6 {
+        top: 9px;
+        left: -239px;
+    }
+
+    .radio7 {
+        top: 14px;
+        left: -272px;
+    }
+
+    .radio8 {        
+        top: 19px;
+        left: -305px;
+    
+    }
+
+    
+
+}
+/* 2 */
+.radio-Safety{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -14px;
+        left: -71px;
+    }
+
+    .radio2 {
+        top: -4px;
+        left: -102px;
+    }
+
+    .radio3 {
+        top: 6px;
+        left: -134px;
+    }
+
+    .radio4 {
+        top: 16px;
+        left: -167px;
+    }
+
+    .radio5 {
+        top: 26px;
+        left: -198px;
+    }
+
+    .radio6 {
+        top: 37px;
+        left: -231px;
+    }
+
+    .radio7 {
+        top: 47px;
+        left: -263px;
+    }
+
+    .radio8 {
+        top: 57px;
+        left: -295px;
+    
+    
+    }
+
+}
+
+.radio-PersonalCare{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -11px;
+        left: -68px;
+    }
+
+    .radio2 {
+        top: 4px;
+        left: -98px;
+    }
+
+    .radio3 {
+        top: 19px;
+        left: -129px;
+    }
+
+    .radio4 {
+        top: 33px;
+        left: -158px;
+    }
+
+    .radio5 {
+        top: 48px;
+        left: -188px;
+    }
+
+    .radio6 {
+        top: 63px;
+        left: -219px;
+    }
+
+    .radio7 {
+        top: 78px;
+        left: -249px;
+    }
+
+    .radio8 {
+        top: 92px;
+        left: -279px;
+    
+    }
+
+}
+
+.radio-Nutrition{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -8px;
+        left: -67px;
+    }
+
+    .radio2 {
+        top: 11px;
+        left: -94px;
+    
+    }
+
+    .radio3 {
+        top: 31px;
+        left: -121px;
+    }
+
+    .radio4 {
+        top: 50px;
+        left: -148px;
+    }
+
+    .radio5 {
+        top: 69px;
+        left: -175px;
+    }
+
+    .radio6 {
+        top: 88px;
+        left: -203px;
+    
+    }
+
+    .radio7 {
+        top: 106px;
+        left: -229px;
+    }
+
+    .radio8 {
+        top: 126px;
+        left: -258px;
+    
+    }
+
+}
+.radio-Drama{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -4px;
+        left: -63px;
+    }
+
+    .radio2 {
+        top: 19px;
+        left: -88px;
+    }
+
+    .radio3 {
+        top: 41px;
+        left: -111px;
+    }
+
+    .radio4 {
+        top: 64px;
+        left: -136px;
+    }
+
+    .radio5 {
+        top: 86px;
+        left: -159px;
+    }
+
+    .radio6 {
+        top: 109px;
+        left: -183px;
+    }
+
+    .radio7 {
+        top: 132px;
+        left: -208px;
+    }
+
+    .radio8 {
+        top: 154px;
+        left: -231px;
+    
+    }
+
+}
+.radio-VisualArts{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: -1px;
+        left: -59px;
+    }
+
+    .radio2 {
+        top: 24px;
+        left: -80px;
+    }
+
+    .radio3 {
+        top: 50px;
+        left: -100px;
+    }
+
+    .radio4 {
+        top: 75px;
+        left: -121px;
+    }
+
+    .radio5 {
+        top: 102px;
+        left: -141px;
+    }
+
+    .radio6 {
+        top: 127px;
+        left: -162px;
+    }
+
+    .radio7 {
+        top: 153px;
+        left: -181px;
+    }
+
+    .radio8 {
+        top: 179px;
+        left: -201px;
+    }
+
+}
+
+.radio-Crafts{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: 1px;
+        left: -54px;
+    
+    }
+
+    .radio2 {
+        top: 32px;
+        left: -65px;
+    }
+
+    .radio3 {
+        top: 62px;
+        left: -75px;
+    }
+
+    .radio4 {
+        top: 92px;
+        left: -87px;
+    }
+
+    .radio5 {
+        top: 123px;
+        left: -97px;
+    }
+
+    .radio6 {
+        top: 153px;
+        left: -108px;
+    }
+
+    .radio7 {
+        top: 184px;
+        left: -119px;
+    }
+
+    .radio8 {
+        top: 216px;
+        left: -131px;
+    
+    }
+
+}
+
+.radio-Music{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: 1px;
+        left: -57px;
+    }
+
+    .radio2 {
+        top: 28px;
+        left: -73px;
+    }
+
+    .radio3 {
+        top: 57px;
+        left: -88px;
+    }
+
+    .radio4 {
+        top: 85px;
+        left: -104px;
+    }
+
+    .radio5 {
+        top: 114px;
+        left: -119px;
+    }
+
+    .radio6 {
+        top: 142px;
+        left: -135px;
+    }
+
+    .radio7 {
+        top: 171px;
+        left: -151px;
+    }
+
+    .radio8 {
+        top: 200px;
+        left: -166px;
+    
+    }
+
+}
+
+
+.radio-Dance{
+    display: flex;
+    position: relative;
+    left: 53px;
+    top: -3px;
+    flex-direction: column;
+    gap: 17px;
+
+    .radio1 {
+        top: 2px;
+        left: -51px;
+    }
+
+    .radio2 {
+        top: 34px;
+        left: -56px;
+    }
+
+    .radio3 {
+        top: 65px;
+        left: -63px;
+    }
+
+    .radio4 {
+        top: 97px;
+        left: -69px;
+    }
+
+    .radio5 {
+        top: 128px;
+        left: -74px;
+    }
+
+    .radio6 {
+        top: 160px;
+        left: -81px;
+    }
+
+    .radio7 {
+        top: 192px;
+        left: -86px;
+    }
+
+    .radio8 {
+        top: 224px;
+        left: -93px;
+    
+    }
+
+}
