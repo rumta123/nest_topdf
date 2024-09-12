@@ -17,6 +17,61 @@ body {
     left: -21px;
   }
 
+  .radio1 {
+
+    width: 6px;
+    height: 6px;
+}
+
+.radio2 {
+
+    width: 8px;
+    height: 8px;
+ 
+}
+
+.radio3 {
+
+    width: 10px;
+    height: 10px;
+   
+}
+
+.radio4 {
+
+    width: 12px;
+    height: 12px;
+}
+
+.radio5 {
+
+    width: 14px;
+    height: 14px;
+   
+}
+
+.radio6 {
+
+    width: 16px;
+    height: 16px;
+
+}
+
+.radio7 {
+
+    width: 18px;
+    height: 18px;
+   
+
+}
+
+.radio8 {
+    width: 20px;
+    height: 20px;
+  
+}
+
+
   /* 
   .radio-wrapper {
     position: fixed;
@@ -28,65 +83,7 @@ body {
 
 
 
-  .radio-wrapper {
-    position: relative;
-
-    .radio1 {
-      width: 6px;
-      height: 6px;
-      top: -1px;
-      left: 7px;
-    }
-
-    .radio2 {
-      width: 8px;
-      height: 8px;
-      top: 32px;
-      left: 5px;
-    }
-
-    .radio3 {
-      width: 10px;
-      height: 10px;
-      top: 63px;
-      left: 5px;
-    }
-
-    .radio4 {
-      width: 12px;
-      height: 12px;
-      top: 94px;
-      left: 4px;
-    }
-
-    .radio5 {
-      width: 14px;
-      height: 14px;
-      top: 127px;
-      left: 3px;
-    }
-
-    .radio6 {
-      width: 16px;
-      height: 16px;
-      top: 158px;
-      left: 2px;
-    }
-
-    .radio7 {
-      width: 18px;
-      height: 18px;
-      top: 191px;
-      left: 1px;
-    }
-
-    .radio8 {
-      width: 20px;
-      height: 20px;
-      top: 221px;
-      left: 0;
-    }
-  }
+  
 
   .radio-wrapper input[type="radio"],
 .radio-gography input[type="radio"],
@@ -135,6 +132,58 @@ body {
     display: none;
     /* Скрываем все радио-кнопки по умолчанию */
 }
+
+.radio-wrapper {
+    position: relative;
+
+    .radio1 {
+    
+      top: -1px;
+      left: 7px;
+    }
+
+    .radio2 {
+    
+      top: 32px;
+      left: 5px;
+    }
+
+    .radio3 {
+   
+      top: 63px;
+      left: 5px;
+    }
+
+    .radio4 {
+   
+      top: 94px;
+      left: 4px;
+    }
+
+    .radio5 {
+    
+      top: 127px;
+      left: 3px;
+    }
+
+    .radio6 {
+    
+      top: 158px;
+      left: 2px;
+    }
+
+    .radio7 {
+     
+      top: 191px;
+      left: 1px;
+    }
+
+    .radio8 {
+    
+      top: 221px;
+      left: 0;
+    }
+  }
 
 .radio-gography {
     display: flex;
